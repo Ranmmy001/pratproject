@@ -21,7 +21,7 @@ jobs:
     # build docker image
 
             - name: build docker image
-              run: sudo docker build -t pratproject .
+              run: sudo docker build -t pratproject:latest .
 
 
     #login into docker hub
@@ -36,7 +36,7 @@ jobs:
     # pushing to docker hub
 
             - name: push to docker hub
-              run: sudo docker push olaranmmy/pratproject
+              run: sudo docker push olaranmmy/pratproject:latest
 
              
 
