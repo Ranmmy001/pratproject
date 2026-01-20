@@ -33,6 +33,15 @@ jobs:
 
 
 
+    # pushing to docker hub
+
+            - name: push to docker hub
+              run: sudo docker push olaranmmy/pratproject
+
+             
+
+
+
 
 
 
