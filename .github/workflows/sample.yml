@@ -15,4 +15,16 @@ jobs:
 
             - name: "Checkout from github directory"
               uses: actions/checkout@v4
-              
+
+
+
+    # build docker image
+
+            - name: build docker image
+              run: sudo docker build -t pratproject .
+
+
+    #login into docker hub
+
+            
+
