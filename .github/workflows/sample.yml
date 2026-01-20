@@ -27,6 +27,8 @@ jobs:
     #login into docker hub
 
             - name: login to docker hub
-              run: sudo docker login -u $[[DOCKER_USER_NAME]]
-                   sudo docker login -p $[[DOCKER_PASSWORD]]
+              run: |
+                    ${{ secrets.DOCKER_USERNAME }}
+                    ${{ secrets.DOCKER_PASSWORD }}
+
 
