@@ -1,2 +1,5 @@
 node_modules
 dockerignore
+package-lock.json
+package.json
+procfile
