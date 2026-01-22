@@ -39,14 +39,11 @@ jobs:
               run: sudo docker push olaranmmy/pratproject 
 
              
+    # creating docker image for node.js
 
 
 
 
 
 
-
-
-         
-
-
+    

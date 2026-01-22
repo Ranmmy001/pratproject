@@ -13,6 +13,15 @@
   "author": "ashishkrgoyal",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
-  }
+    "express": "^4.22.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranmmy001/pratproject.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Ranmmy001/pratproject/issues"
+  },
+  "homepage": "https://github.com/Ranmmy001/pratproject#readme"
 }
