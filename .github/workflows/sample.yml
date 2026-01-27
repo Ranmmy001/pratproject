@@ -12,7 +12,8 @@ jobs:
               run: 
                 echo "Welcome to this step"
                 ls -a
-
+                echo "checking the error"
+                
             - name: "Checkout from github directory"
               uses: actions/checkout@v4
 
