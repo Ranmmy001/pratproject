@@ -16,3 +16,5 @@ COPY . .
 EXPOSE 1212
 
 CMD ["node", "server.js"]
+
+

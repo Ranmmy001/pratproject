@@ -9,7 +9,7 @@ jobs:
         runs-on: ubuntu-latest
         steps: 
             - name: "Welcome Step"
-              run: |
+              run: 
                 echo "Welcome to this step"
                 ls -a
 
@@ -46,4 +46,3 @@ jobs:
 
 
 
-    
